@@ -2,6 +2,10 @@
 
 All notable changes to this package are documented in this file.
 
+## [1.1.50] - 2026-07-03
+
+- Assign a unique GUID to the bundled `0Harmony.dll` metadata so Unity no longer ignores Preview Forge's immutable package asset when another package ships a conflicting GUID.
+
 ## [1.1.49] - 2026-06-25
 
 - Harden prefab thumbnail support checks by skipping prefabs with unresolved script references before renderer selection, so broken assets do not enter the thumbnail pipeline.
